@@ -1,15 +1,18 @@
 import { motion } from "framer-motion";
-import school1 from "@/assets/school-1.jpg";
-import school2 from "@/assets/school-2.jpg";
-import school3 from "@/assets/school-3.jpg";
+import school1 from "@/assets/Images/Roofed Schools/OLOA Namilyango.jpg";
+import school2 from "@/assets/Images/Roofed Schools/OLOA Mukono.jpg";
+import school3 from "@/assets/Images/Roofed Schools/OLOA Bukasa.jpeg";
+import school4 from "@/assets/Images/Roofed Schools/SMACOL.jpeg";
+import school5 from "@/assets/Images/Roofed Schools/MKevin.jpg";
+import school6 from "@/assets/Images/Roofed Schools/st Francis.jpg";
 
 const schools = [
   { name: "Our Lady of Africa – Namilyango", image: school1 },
   { name: "Our Lady of Africa – Mukono", image: school2 },
   { name: "Our Lady of Africa – Bukasa", image: school3 },
-  { name: "St. Mary's College – Lugazi", image: school1 },
-  { name: "Mother Kevin College – Mabira", image: school2 },
-  { name: "St. Francis Borgia High School – Mukono", image: school3 },
+  { name: "St. Mary's College – Lugazi", image: school4 },
+  { name: "Mother Kevin College – Mabira", image: school5 },
+  { name: "St. Francis Borgia High School – Mukono", image: school6 },
 ];
 
 const SchoolsSection = () => (

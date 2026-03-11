@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import parallaxBg from "@/assets/parallax-bg.jpg";
+import parallaxBg from "@/assets/Images/parallax/parallax-bg.jpeg";
 
 const stats = [
   { value: 10, suffix: "+", label: "Years Experience" },
   { value: 50, suffix: "+", label: "Projects Completed" },
-  { value: 6, suffix: "+", label: "Schools Roofed" },
+  { value: 7, suffix: "+", label: "Schools Roofed" },
   { value: 100, suffix: "%", label: "Client Satisfaction" },
 ];
 

@@ -1,11 +1,20 @@
 import { useState, useEffect } from "react";
 import { Phone, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import hero1 from "@/assets/hero-1.jpg";
-import hero2 from "@/assets/hero-2.jpg";
-import hero3 from "@/assets/hero-3.jpg";
+import hero1 from "@/assets/Images/Hero/hero (1).jpg";
+import hero2 from "@/assets/Images/Hero/hero (2).jpg";
+import hero3 from "@/assets/Images/Hero/hero (3).jpg";
+import hero4 from "@/assets/Images/Hero/hero (4).jpg";
+import hero5 from "@/assets/Images/Hero/hero (5).jpg";
+import hero6 from "@/assets/Images/Hero/hero (6).jpg";
+import hero7 from "@/assets/Images/Hero/hero (7).jpg";
+import hero8 from "@/assets/Images/Hero/hero (8).jpg";
+import hero9 from "@/assets/Images/Hero/hero (9).jpg";
+import hero10 from "@/assets/Images/Hero/hero (10).jpg";
+import hero11 from "@/assets/Images/Hero/hero (11).jpg";
+import hero12 from "@/assets/Images/Hero/hero (12).jpg";
 
-const slides = [hero1, hero2, hero3];
+const slides = [hero1, hero2, hero3, hero4, hero5, hero6, hero7, hero8, hero9, hero10, hero11, hero12];
 
 const HeroSlideshow = () => {
   const [current, setCurrent] = useState(0);

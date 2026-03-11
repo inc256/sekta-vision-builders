@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import { Button } from "@/components/ui/button";
-import portfolio1 from "@/assets/portfolio-1.jpg";
-import portfolio2 from "@/assets/portfolio-2.jpg";
-import portfolio3 from "@/assets/portfolio-3.jpg";
-import portfolio4 from "@/assets/portfolio-4.jpg";
-import portfolio5 from "@/assets/portfolio-5.jpg";
-import portfolio6 from "@/assets/portfolio-6.jpg";
+import portfolio1 from "@/assets/Images/Quick Portofolio/quick (1).jpg";
+import portfolio2 from "@/assets/Images/Quick Portofolio/quick (2).jpg";
+import portfolio3 from "@/assets/Images/Quick Portofolio/quick (3).jpg";
+import portfolio4 from "@/assets/Images/Quick Portofolio/quick (4).jpg";
+import portfolio5 from "@/assets/Images/Quick Portofolio/quick (5).jpg";
+import portfolio6 from "@/assets/Images/Quick Portofolio/quick (6).jpg";
 
 const images = [
   { src: portfolio1, alt: "Steel roof truss close-up" },

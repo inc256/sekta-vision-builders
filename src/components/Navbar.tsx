@@ -2,11 +2,12 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/Images/Logos/Sekta-Real-Constructors-Logo-Black.png";
 
 const navItems = [
   { label: "Home", path: "/" },
   { label: "About", path: "/about" },
-  { label: "Services", path: "/#services" },
+  { label: "Services", path: "/services" },
   { label: "Portfolio", path: "/portfolio" },
   { label: "Contact", path: "/contact" },
 ];
@@ -31,8 +32,12 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 border-b border-border bg-card/80 backdrop-blur-md">
       <div className="section-container">
         <div className="flex h-16 items-center justify-between sm:h-20">
-          <Link to="/" className="text-lg font-black tracking-tight text-foreground sm:text-xl">
-            Sekta Real<span className="text-accent"> Constructors</span>
+          <Link to="/" className="flex items-center gap-2">
+            <img 
+              src={logo} 
+              alt="Sekta Real Constructors" 
+              className="h-10 w-auto sm:h-12"
+            />
           </Link>
 
           {/* Desktop nav */}

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Phone, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import ctaBg from "@/assets/cta-bg.jpg";
+import ctaBg from "@/assets/Images/parallax/cta-bg.jpg";
 
 const CTASection = () => (
   <section
