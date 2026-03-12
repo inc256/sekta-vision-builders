@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 
-// Roof Structures - 62 images
+// Roof Structures - 61 images
 import roof_1 from "@/assets/Images/Roof Projects/roof (1).jpg";
 import roof_2 from "@/assets/Images/Roof Projects/roof (2).jpg";
 import roof_3 from "@/assets/Images/Roof Projects/roof (3).jpg";
@@ -119,7 +119,103 @@ import completed_6 from "@/assets/Images/Completed Projects/completed (6).jpg";
 import completed_7 from "@/assets/Images/Completed Projects/completed (7).jpg";
 import completed_8 from "@/assets/Images/Completed Projects/completed (8).jpg";
 
-const categories = ["All", "Roof Structures", "Construction", "Form Works", "Completed Projects"];
+// Videos - 20 videos
+import video_1 from "@/assets/Videos/videos (1).mp4";
+import video_2 from "@/assets/Videos/videos (2).mp4";
+import video_3 from "@/assets/Videos/videos (3).mp4";
+import video_4 from "@/assets/Videos/videos (4).mp4";
+import video_5 from "@/assets/Videos/videos (5).mp4";
+import video_6 from "@/assets/Videos/videos (6).mp4";
+import video_7 from "@/assets/Videos/videos (7).mp4";
+import video_8 from "@/assets/Videos/videos (8).mp4";
+import video_9 from "@/assets/Videos/videos (9).mp4";
+import video_10 from "@/assets/Videos/videos (10).mp4";
+import video_11 from "@/assets/Videos/videos (11).mp4";
+import video_12 from "@/assets/Videos/videos (12).mp4";
+import video_13 from "@/assets/Videos/videos (13).mp4";
+import video_14 from "@/assets/Videos/videos (14).mp4";
+import video_15 from "@/assets/Videos/videos (15).mp4";
+import video_16 from "@/assets/Videos/videos (16).mp4";
+import video_17 from "@/assets/Videos/videos (17).mp4";
+import video_18 from "@/assets/Videos/videos (18).mp4";
+import video_19 from "@/assets/Videos/videos (19).mp4";
+import video_20 from "@/assets/Videos/videos (20).mp4";
+
+// Residents - 31 images
+import resident_1 from "@/assets/Images/Residents/residents (1).jpeg";
+import resident_2 from "@/assets/Images/Residents/residents (2).jpeg";
+import resident_3 from "@/assets/Images/Residents/residents (3).jpeg";
+import resident_4 from "@/assets/Images/Residents/residents (4).jpeg";
+import resident_5 from "@/assets/Images/Residents/residents (5).jpeg";
+import resident_6 from "@/assets/Images/Residents/residents (6).jpeg";
+import resident_7 from "@/assets/Images/Residents/residents (7).jpeg";
+import resident_8 from "@/assets/Images/Residents/residents (8).jpeg";
+import resident_9 from "@/assets/Images/Residents/residents (9).jpeg";
+import resident_10 from "@/assets/Images/Residents/residents (10).jpeg";
+import resident_11 from "@/assets/Images/Residents/residents (11).jpeg";
+import resident_12 from "@/assets/Images/Residents/residents (12).jpeg";
+import resident_13 from "@/assets/Images/Residents/residents (13).jpeg";
+import resident_14 from "@/assets/Images/Residents/residents (14).jpeg";
+import resident_15 from "@/assets/Images/Residents/residents (15).jpeg";
+import resident_16 from "@/assets/Images/Residents/residents (16).jpeg";
+import resident_17 from "@/assets/Images/Residents/residents (17).jpeg";
+import resident_18 from "@/assets/Images/Residents/residents (18).jpeg";
+import resident_19 from "@/assets/Images/Residents/residents (19).jpeg";
+import resident_20 from "@/assets/Images/Residents/residents (20).jpeg";
+import resident_21 from "@/assets/Images/Residents/residents (21).jpeg";
+import resident_22 from "@/assets/Images/Residents/residents (22).jpeg";
+import resident_23 from "@/assets/Images/Residents/residents (23).jpeg";
+import resident_24 from "@/assets/Images/Residents/residents (24).jpeg";
+import resident_25 from "@/assets/Images/Residents/residents (25).jpeg";
+import resident_26 from "@/assets/Images/Residents/residents (26).jpeg";
+import resident_27 from "@/assets/Images/Residents/residents (27).jpeg";
+import resident_28 from "@/assets/Images/Residents/residents (28).jpeg";
+import resident_29 from "@/assets/Images/Residents/residents (29).jpeg";
+import resident_30 from "@/assets/Images/Residents/residents (30).jpeg";
+import resident_31 from "@/assets/Images/Residents/residents (31).jpeg";
+
+// Schools - 30 images
+import school_1 from "@/assets/Images/Schools/schools (1).jpeg";
+import school_2 from "@/assets/Images/Schools/schools (2).jpeg";
+import school_3 from "@/assets/Images/Schools/schools (3).jpeg";
+import school_4 from "@/assets/Images/Schools/schools (4).jpeg";
+import school_5 from "@/assets/Images/Schools/schools (5).jpeg";
+import school_6 from "@/assets/Images/Schools/schools (6).jpeg";
+import school_7 from "@/assets/Images/Schools/schools (7).jpeg";
+import school_8 from "@/assets/Images/Schools/schools (8).jpeg";
+import school_9 from "@/assets/Images/Schools/schools (9).jpeg";
+import school_10 from "@/assets/Images/Schools/schools (10).jpeg";
+import school_11 from "@/assets/Images/Schools/schools (11).jpeg";
+import school_12 from "@/assets/Images/Schools/schools (12).jpeg";
+import school_13 from "@/assets/Images/Schools/schools (13).jpeg";
+import school_14 from "@/assets/Images/Schools/schools (14).jpeg";
+import school_15 from "@/assets/Images/Schools/schools (15).jpeg";
+import school_16 from "@/assets/Images/Schools/schools (16).jpeg";
+import school_17 from "@/assets/Images/Schools/schools (17).jpeg";
+import school_18 from "@/assets/Images/Schools/schools (18).jpeg";
+import school_19 from "@/assets/Images/Schools/schools (19).jpeg";
+import school_20 from "@/assets/Images/Schools/schools (20).jpeg";
+import school_21 from "@/assets/Images/Schools/schools (21).jpeg";
+import school_22 from "@/assets/Images/Schools/schools (22).jpeg";
+import school_23 from "@/assets/Images/Schools/schools (23).jpeg";
+import school_24 from "@/assets/Images/Schools/schools (24).jpeg";
+import school_25 from "@/assets/Images/Schools/schools (25).jpeg";
+import school_26 from "@/assets/Images/Schools/schools (26).jpeg";
+import school_27 from "@/assets/Images/Schools/schools (27).jpeg";
+import school_28 from "@/assets/Images/Schools/schools (28).jpeg";
+import school_29 from "@/assets/Images/Schools/schools (29).jpeg";
+import school_30 from "@/assets/Images/Schools/schools (30).jpeg";
+
+const categories = [
+  "All", 
+  "Roof Structures", 
+  "Construction", 
+  "Form Works", 
+  "Completed Projects",
+  "Videos",
+  "Residents",
+  "Schools"
+];
 
 // Roof Structures images
 const roofImages = [
@@ -242,12 +338,108 @@ const completedImages = [
   { src: completed_8, alt: "Completed project 8" },
 ];
 
+// Videos
+const videoItems = [
+  { src: video_1, alt: "Video 1" },
+  { src: video_2, alt: "Video 2" },
+  { src: video_3, alt: "Video 3" },
+  { src: video_4, alt: "Video 4" },
+  { src: video_5, alt: "Video 5" },
+  { src: video_6, alt: "Video 6" },
+  { src: video_7, alt: "Video 7" },
+  { src: video_8, alt: "Video 8" },
+  { src: video_9, alt: "Video 9" },
+  { src: video_10, alt: "Video 10" },
+  { src: video_11, alt: "Video 11" },
+  { src: video_12, alt: "Video 12" },
+  { src: video_13, alt: "Video 13" },
+  { src: video_14, alt: "Video 14" },
+  { src: video_15, alt: "Video 15" },
+  { src: video_16, alt: "Video 16" },
+  { src: video_17, alt: "Video 17" },
+  { src: video_18, alt: "Video 18" },
+  { src: video_19, alt: "Video 19" },
+  { src: video_20, alt: "Video 20" },
+];
+
+// Residents images
+const residentImages = [
+  { src: resident_1, alt: "Resident project 1" },
+  { src: resident_2, alt: "Resident project 2" },
+  { src: resident_3, alt: "Resident project 3" },
+  { src: resident_4, alt: "Resident project 4" },
+  { src: resident_5, alt: "Resident project 5" },
+  { src: resident_6, alt: "Resident project 6" },
+  { src: resident_7, alt: "Resident project 7" },
+  { src: resident_8, alt: "Resident project 8" },
+  { src: resident_9, alt: "Resident project 9" },
+  { src: resident_10, alt: "Resident project 10" },
+  { src: resident_11, alt: "Resident project 11" },
+  { src: resident_12, alt: "Resident project 12" },
+  { src: resident_13, alt: "Resident project 13" },
+  { src: resident_14, alt: "Resident project 14" },
+  { src: resident_15, alt: "Resident project 15" },
+  { src: resident_16, alt: "Resident project 16" },
+  { src: resident_17, alt: "Resident project 17" },
+  { src: resident_18, alt: "Resident project 18" },
+  { src: resident_19, alt: "Resident project 19" },
+  { src: resident_20, alt: "Resident project 20" },
+  { src: resident_21, alt: "Resident project 21" },
+  { src: resident_22, alt: "Resident project 22" },
+  { src: resident_23, alt: "Resident project 23" },
+  { src: resident_24, alt: "Resident project 24" },
+  { src: resident_25, alt: "Resident project 25" },
+  { src: resident_26, alt: "Resident project 26" },
+  { src: resident_27, alt: "Resident project 27" },
+  { src: resident_28, alt: "Resident project 28" },
+  { src: resident_29, alt: "Resident project 29" },
+  { src: resident_30, alt: "Resident project 30" },
+  { src: resident_31, alt: "Resident project 31" },
+];
+
+// Schools images
+const schoolImages = [
+  { src: school_1, alt: "School project 1" },
+  { src: school_2, alt: "School project 2" },
+  { src: school_3, alt: "School project 3" },
+  { src: school_4, alt: "School project 4" },
+  { src: school_5, alt: "School project 5" },
+  { src: school_6, alt: "School project 6" },
+  { src: school_7, alt: "School project 7" },
+  { src: school_8, alt: "School project 8" },
+  { src: school_9, alt: "School project 9" },
+  { src: school_10, alt: "School project 10" },
+  { src: school_11, alt: "School project 11" },
+  { src: school_12, alt: "School project 12" },
+  { src: school_13, alt: "School project 13" },
+  { src: school_14, alt: "School project 14" },
+  { src: school_15, alt: "School project 15" },
+  { src: school_16, alt: "School project 16" },
+  { src: school_17, alt: "School project 17" },
+  { src: school_18, alt: "School project 18" },
+  { src: school_19, alt: "School project 19" },
+  { src: school_20, alt: "School project 20" },
+  { src: school_21, alt: "School project 21" },
+  { src: school_22, alt: "School project 22" },
+  { src: school_23, alt: "School project 23" },
+  { src: school_24, alt: "School project 24" },
+  { src: school_25, alt: "School project 25" },
+  { src: school_26, alt: "School project 26" },
+  { src: school_27, alt: "School project 27" },
+  { src: school_28, alt: "School project 28" },
+  { src: school_29, alt: "School project 29" },
+  { src: school_30, alt: "School project 30" },
+];
+
 // Combine all images with categories
 const allImages = [
   ...roofImages.map(img => ({ ...img, category: "Roof Structures" })),
   ...formImages.map(img => ({ ...img, category: "Form Works" })),
   ...constructionImages.map(img => ({ ...img, category: "Construction" })),
   ...completedImages.map(img => ({ ...img, category: "Completed Projects" })),
+  ...videoItems.map(img => ({ ...img, category: "Videos" })),
+  ...residentImages.map(img => ({ ...img, category: "Residents" })),
+  ...schoolImages.map(img => ({ ...img, category: "Schools" })),
 ];
 
 const Portfolio = () => {
@@ -293,9 +485,9 @@ const Portfolio = () => {
 
             {/* Masonry grid */}
             <div className="mt-10 columns-1 gap-4 sm:columns-2 lg:columns-3">
-              {filtered.map((img, i) => (
+              {filtered.map((item, i) => (
                 <motion.div
-                  key={img.src + active}
+                  key={item.src + active}
                   initial={{ opacity: 0, y: 12 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.3, delay: i * 0.03 }}
@@ -305,13 +497,36 @@ const Portfolio = () => {
                     onClick={() => setLightboxIndex(i)}
                     className="group block w-full overflow-hidden rounded-xl"
                   >
-                    <img
-                      src={img.src}
-                      alt={img.alt}
-                      className="w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                      loading="lazy"
-                      style={{ outline: "1px solid rgba(0,0,0,0.05)", outlineOffset: "-1px" }}
-                    />
+                    {item.category === "Videos" ? (
+                      <div className="relative">
+                        <video
+                          src={item.src}
+                          className="w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                          muted
+                          preload="metadata"
+                          onMouseOver={(e) => (e.target as HTMLVideoElement).play()}
+                          onMouseOut={(e) => {
+                            const video = e.target as HTMLVideoElement;
+                            video.pause();
+                            video.currentTime = 0;
+                          }}
+                        />
+                        <div className="absolute inset-0 flex items-center justify-center bg-black/30">
+                          <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white/90">
+                            <svg className="h-6 w-6 text-black ml-1" fill="currentColor" viewBox="0 0 24 24">
+                              <path d="M8 5v14l11-7z"/>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    ) : (
+                      <img
+                        src={item.src}
+                        alt={item.alt}
+                        className="w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                        loading="lazy"
+                      />
+                    )}
                   </button>
                 </motion.div>
               ))}
