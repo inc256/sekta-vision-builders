@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import { X } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
@@ -445,8 +446,22 @@ const allImages = [
 const Portfolio = () => {
   const [active, setActive] = useState("All");
   const [lightboxIndex, setLightboxIndex] = useState(-1);
+  const [playingVideo, setPlayingVideo] = useState<string | null>(null);
 
   const filtered = active === "All" ? allImages : allImages.filter((img) => img.category === active);
+  
+  // Filter out videos for lightbox display
+  const lightboxImages = filtered.filter((img) => img.category !== "Videos");
+
+  const handleItemClick = (item: typeof allImages[0], index: number) => {
+    if (item.category === "Videos") {
+      setPlayingVideo(item.src);
+    } else {
+      // Calculate the correct index in lightboxImages
+      const imageIndex = filtered.slice(0, index).filter((img) => img.category !== "Videos").length;
+      setLightboxIndex(imageIndex);
+    }
+  };
 
   return (
     <>
@@ -494,7 +509,7 @@ const Portfolio = () => {
                   className="mb-4 break-inside-avoid"
                 >
                   <button
-                    onClick={() => setLightboxIndex(i)}
+                    onClick={() => handleItemClick(item, i)}
                     className="group block w-full overflow-hidden rounded-xl"
                   >
                     {item.category === "Videos" ? (
@@ -535,13 +550,36 @@ const Portfolio = () => {
         </section>
       </main>
       <Footer />
+      {/* Video Player Modal */}
+      {playingVideo && (
+        <div 
+          className="fixed inset-0 z-50 flex items-center justify-center"
+          style={{ backgroundColor: "rgba(17, 24, 39, 0.95)" }}
+          onClick={() => setPlayingVideo(null)}
+        >
+          <button 
+            className="absolute top-4 right-4 text-white hover:text-gray-300"
+            onClick={() => setPlayingVideo(null)}
+          >
+            <X className="h-8 w-8" />
+          </button>
+          <video 
+            src={playingVideo} 
+            controls 
+            autoPlay 
+            className="max-h-[90vh] max-w-[90vw]"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
+
       <WhatsAppFloat />
 
       <Lightbox
         open={lightboxIndex >= 0}
         close={() => setLightboxIndex(-1)}
         index={lightboxIndex}
-        slides={filtered.map((img) => ({ src: img.src }))}
+        slides={lightboxImages.map((img) => ({ src: img.src }))}
         styles={{ container: { backgroundColor: "rgba(17, 24, 39, 0.95)" } }}
       />
     </>
