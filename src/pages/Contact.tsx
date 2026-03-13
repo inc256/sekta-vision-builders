@@ -9,11 +9,11 @@ import Seo from "@/components/Seo";
 const Contact = () => (
   <>
     <Seo
-      title="Contact Sekta Real Constructors | Roofing & Construction Quotes"
-      description="Contact Sekta Real Constructors in Seeta, Mukono for roofing structures, building construction, form works, and maintenance estimates."
-      url="https://sekta-real-constructors.com/contact"
-      canonical="https://sekta-real-constructors.com/contact"
-      image="https://sekta-real-constructors.com/contact-og.jpg"
+      title="Contact Sekta Real Contructors | Roofing & Construction Quotes"
+      description="Contact Sekta Real Contructors in Seeta, Mukono for roofing structures, building construction, form works, and maintenance estimates."
+      url="https://sekta-real-contructors.com/contact"
+      canonical="https://sekta-real-contructors.com/contact"
+      image="https://sekta-real-contructors.com/contact-og.jpg"
       keywords="contact construction company, construction quote uganda, roofing quote mukono"
     />
     <Navbar />

@@ -467,11 +467,11 @@ const Portfolio = () => {
   return (
     <>
       <Seo
-        title="Portfolio | Sekta Real Constructors Projects in Uganda"
-        description="View Sekta Real Constructors' portfolio of roofing structures, construction projects, form works, and completed school projects."
-        url="https://sekta-real-constructors.com/portfolio"
-        canonical="https://sekta-real-constructors.com/portfolio"
-        image="https://sekta-real-constructors.com/portfolio-og.jpg"
+        title="Portfolio | Sekta Real Contructors Projects in Uganda"
+        description="View Sekta Real Contructors' portfolio of roofing structures, construction projects, form works, and completed school projects."
+        url="https://sekta-real-contructors.com/portfolio"
+        canonical="https://sekta-real-contructors.com/portfolio"
+        image="https://sekta-real-contructors.com/portfolio-og.jpg"
         keywords="construction portfolio uganda, roof projects, formwork projects"
       />
       <Navbar />

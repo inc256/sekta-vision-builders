@@ -12,10 +12,10 @@ const NotFound = () => {
   return (
     <>
       <Seo
-        title="404 Not Found | Sekta Real Constructors"
-        description="The page you requested was not found. Return to Sekta Real Constructors homepage for construction and roofing services in Uganda."
-        url={`https://sekta-real-constructors.com${location.pathname}`}
-        canonical="https://sekta-real-constructors.com/404"
+        title="404 Not Found | Sekta Real Contructors"
+        description="The page you requested was not found. Return to Sekta Real Contructors homepage for construction and roofing services in Uganda."
+        url={`https://sekta-real-contructors.com${location.pathname}`}
+        canonical="https://sekta-real-contructors.com/404"
       />
       <div className="flex min-h-screen items-center justify-center bg-muted">
         <div className="text-center">
