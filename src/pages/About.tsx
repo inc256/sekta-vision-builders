@@ -3,10 +3,19 @@ import { Target, Award } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import Seo from "@/components/Seo";
 import hero2 from "@/assets/Images/Completed Projects/completed (8).jpg";
 
 const About = () => (
   <>
+    <Seo
+      title="About Sekta Real Constructors | Trusted Construction Company in Mukono"
+      description="Learn about Sekta Real Constructors' mission, top-quality service, and 10+ years of experience in roofing structures, form works, and building maintenance."
+      url="https://sekta-real-constructors.com/about"
+      canonical="https://sekta-real-constructors.com/about"
+      image="https://sekta-real-constructors.com/about-og.jpg"
+      keywords="about sekta real constructors, construction company mukono, roofing experience uganda"
+    />
     <Navbar />
     <main>
       <section className="section-padding bg-background">

@@ -4,9 +4,18 @@ import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import Seo from "@/components/Seo";
 
 const Contact = () => (
   <>
+    <Seo
+      title="Contact Sekta Real Constructors | Roofing & Construction Quotes"
+      description="Contact Sekta Real Constructors in Seeta, Mukono for roofing structures, building construction, form works, and maintenance estimates."
+      url="https://sekta-real-constructors.com/contact"
+      canonical="https://sekta-real-constructors.com/contact"
+      image="https://sekta-real-constructors.com/contact-og.jpg"
+      keywords="contact construction company, construction quote uganda, roofing quote mukono"
+    />
     <Navbar />
     <main>
       <section className="section-padding bg-background">

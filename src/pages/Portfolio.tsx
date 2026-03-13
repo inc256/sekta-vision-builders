@@ -6,6 +6,7 @@ import { X } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import Seo from "@/components/Seo";
 
 // Roof Structures - 61 images
 import roof_1 from "@/assets/Images/Roof Projects/roof (1).jpg";
@@ -465,6 +466,14 @@ const Portfolio = () => {
 
   return (
     <>
+      <Seo
+        title="Portfolio | Sekta Real Constructors Projects in Uganda"
+        description="View Sekta Real Constructors' portfolio of roofing structures, construction projects, form works, and completed school projects."
+        url="https://sekta-real-constructors.com/portfolio"
+        canonical="https://sekta-real-constructors.com/portfolio"
+        image="https://sekta-real-constructors.com/portfolio-og.jpg"
+        keywords="construction portfolio uganda, roof projects, formwork projects"
+      />
       <Navbar />
       <main>
         <section className="section-padding bg-background">

@@ -8,9 +8,18 @@ import CTASection from "@/components/CTASection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import Seo from "@/components/Seo";
 
 const Index = () => (
   <>
+    <Seo
+      title="Sekta Real Constructors | Roofing, Construction & Form Works in Uganda"
+      description="Expert roofing structures, construction, form works, and maintenance services in Seeta, Mukono. Trusted by schools and commercial clients."
+      url="https://sekta-real-constructors.com/"
+      canonical="https://sekta-real-constructors.com/"
+      image="https://sekta-real-constructors.com/og-image.jpg"
+      keywords="roof construction uganda, roofing contractors mukono, formwork services, sekta real constructors"
+    />
     <Navbar />
     <main>
       <HeroSlideshow />
