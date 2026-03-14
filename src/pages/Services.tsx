@@ -57,11 +57,11 @@ const Services = () => {
   return (
     <>
       <Seo
-        title="Services | Sekta Real Contructors - Roofing, Form Works, Construction"
-        description="Explore Sekta Real Contructors' services including roof structures, full building construction, formwork systems, and maintenance services in Uganda."
-        url="https://sekta-real-contructors.com/services"
-        canonical="https://sekta-real-contructors.com/services"
-        image="https://sekta-real-contructors.com/services-og.jpg"
+        title="Services | ssekta Real Contructors - Roofing, Form Works, Construction"
+        description="Explore ssekta Real Contructors' services including roof structures, full building construction, formwork systems, and maintenance services in Uganda."
+        url="https://sektarealconstructors.com"
+        canonical="https://sektarealcontructors.com/"
+        image="https://www.sektarealconstructors.com/assets/Sekta-Real-Constructors-Logo-Black-DjL8LATT.png"
         keywords="construction services uganda, roof structure service, formwork contractor mukono"
       />
       <Navbar />

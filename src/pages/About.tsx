@@ -9,12 +9,12 @@ import hero2 from "@/assets/Images/Completed Projects/completed (8).jpg";
 const About = () => (
   <>
     <Seo
-      title="About Sekta Real Contructors | Trusted Construction Company in Mukono"
-      description="Learn about Sekta Real Contructors' mission, top-quality service, and 10+ years of experience in roofing structures, form works, and building maintenance."
+      title="About ssekta Real Contructors | Trusted Construction Company in Mukono"
+      description="Learn about ssekta Real Contructors' mission, top-quality service, and 10+ years of experience in roofing structures, form works, and building maintenance."
       url="https://sekta-real-contructors.com/about"
       canonical="https://sekta-real-contructors.com/about"
       image="https://sekta-real-contructors.com/about-og.jpg"
-      keywords="about sekta real contructors, construction company mukono, roofing experience uganda"
+      keywords="about ssekta real contructors, construction company mukono, roofing experience uganda"
     />
     <Navbar />
     <main>
@@ -27,10 +27,10 @@ const About = () => (
               transition={{ duration: 0.4 }}
             >
               <h1 className="text-4xl font-black text-foreground sm:text-5xl">
-                About <span className="text-accent">Sekta Real</span>
+                About <span className="text-accent">ssekta Real</span>
               </h1>
               <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
-                Sekta Real Constructors is a professional construction company based in Seeta, Mukono
+                ssekta Real Constructors is a professional construction company based in Seeta, Mukono
                 with over 10 years of experience delivering roofing structures, construction services,
                 form works, and maintenance.
               </p>
@@ -74,7 +74,7 @@ const About = () => (
             >
               <img
                 src={hero2}
-                alt="Sekta Real construction project"
+                alt="ssekta Real construction project"
                 className="w-full object-cover"
               />
             </motion.div>

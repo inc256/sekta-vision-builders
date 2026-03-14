@@ -7,7 +7,7 @@ const Footer = () => (
       <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         {/* Brand */}
         <div>
-          <h3 className="text-lg font-black">Sekta Real Constructors</h3>
+          <h3 className="text-lg font-black">ssekta Real Constructors</h3>
           <p className="mt-2 text-sm italic text-primary-foreground/70">
             "Only the best is good enough."
           </p>
@@ -63,7 +63,7 @@ const Footer = () => (
       </div>
 
       <div className="mt-10 border-t border-primary-foreground/10 pt-6 text-center text-xs text-primary-foreground/50">
-        © {new Date().getFullYear()} Sekta Real Constructors. All rights reserved.
+        © {new Date().getFullYear()} ssekta Real Constructors. All rights reserved.
       </div>
     </div>
   </footer>

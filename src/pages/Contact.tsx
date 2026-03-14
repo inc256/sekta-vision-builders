@@ -9,8 +9,8 @@ import Seo from "@/components/Seo";
 const Contact = () => (
   <>
     <Seo
-      title="Contact Sekta Real Contructors | Roofing & Construction Quotes"
-      description="Contact Sekta Real Contructors in Seeta, Mukono for roofing structures, building construction, form works, and maintenance estimates."
+      title="Contact ssekta Real Contructors | Roofing & Construction Quotes"
+      description="Contact ssekta Real Contructors in Seeta, Mukono for roofing structures, building construction, form works, and maintenance estimates."
       url="https://sekta-real-contructors.com/contact"
       canonical="https://sekta-real-contructors.com/contact"
       image="https://sekta-real-contructors.com/contact-og.jpg"
@@ -92,7 +92,7 @@ const Contact = () => (
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Sekta Real Constructors location"
+                title="ssekta Real Constructors location"
               />
             </motion.div>
           </div>
