@@ -77,7 +77,7 @@ const ContactSection = () => (
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="ssekta Real Constructors location"
+            title="Ssekta Real Constructors location"
           />
         </motion.div>
       </div>

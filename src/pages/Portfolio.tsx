@@ -467,8 +467,8 @@ const Portfolio = () => {
   return (
     <>
       <Seo
-        title="Portfolio | ssekta Real Contructors Projects in Uganda"
-        description="View ssekta Real Contructors' portfolio of roofing structures, construction projects, form works, and completed school projects."
+        title="Portfolio | Ssekta Real Contructors Projects in Uganda"
+        description="View Ssekta Real Contructors' portfolio of roofing structures, construction projects, form works, and completed school projects."
         url="https://sekta-real-contructors.com/portfolio"
         canonical="https://sekta-real-contructors.com/portfolio"
         image="https://sekta-real-contructors.com/portfolio-og.jpg"

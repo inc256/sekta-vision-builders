@@ -45,7 +45,7 @@ const HeroSlideshow = () => {
         <div className="section-container w-full">
           <div className="max-w-2xl">
             <h1 className="text-4xl font-black leading-tight text-accent-foreground sm:text-5xl lg:text-6xl">
-              ssekta Real{" "}
+              Ssekta Real{" "}
               <span className="text-accent">Constructors</span>
             </h1>
             <p className="mt-3 text-lg font-medium italic text-accent-foreground/80 sm:text-xl">

@@ -35,7 +35,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-2">
             <img 
               src={logo} 
-              alt="ssekta Real Constructors" 
+              alt="Ssekta Real Constructors" 
               className="h-10 w-auto sm:h-12"
             />
           </Link>

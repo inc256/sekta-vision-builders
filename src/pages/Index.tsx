@@ -13,12 +13,12 @@ import Seo from "@/components/Seo";
 const Index = () => (
   <>
     <Seo
-      title="ssekta Real Contructors | Roofing, Construction & Form Works in Uganda"
+      title="Ssekta Real Contructors | Roofing, Construction & Form Works in Uganda"
       description="Expert roofing structures, construction, form works, and maintenance services in Seeta, Mukono. Trusted by schools and commercial clients."
       url="https://sekta-real-contructors.com/"
       canonical="https://sekta-real-contructors.com/"
       image="https://sekta-real-contructors.com/og-image.jpg"
-      keywords="roof construction uganda, roofing contractors mukono, formwork services, ssekta real contructors"
+      keywords="roof construction uganda, roofing contractors mukono, formwork services, Ssekta Real contructors"
     />
     <Navbar />
     <main>

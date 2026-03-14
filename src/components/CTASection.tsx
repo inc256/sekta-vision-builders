@@ -20,7 +20,7 @@ const CTASection = () => (
           Need Professional Roofing or Construction Services?
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-accent-foreground/70">
-          Contact ssekta Real Constructors today for reliable and professional construction services.
+          Contact Ssekta Real Constructors today for reliable and professional construction services.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Button asChild variant="accent" size="xl">
