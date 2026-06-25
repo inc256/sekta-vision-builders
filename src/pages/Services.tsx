@@ -9,7 +9,7 @@ import Seo from "@/components/Seo";
 const services = [
   {
     icon: Home,
-    title: "Roof Structures",
+    title: "Roof Structures.",
     description: "Design and installation of strong roofing structures for schools, homes and commercial buildings.",
     features: [
       "Steel roof truss design and installation",
@@ -20,7 +20,7 @@ const services = [
   },
   {
     icon: Hammer,
-    title: "Construction",
+    title: "Construction.",
     description: "Professional building construction services from foundation to finishing.",
     features: [
       "Residential construction",
@@ -31,7 +31,7 @@ const services = [
   },
   {
     icon: Layers,
-    title: "Form Works",
+    title: "Form Works.",
     description: "Accurate and reliable concrete formwork solutions for any project scale.",
     features: [
       "Concrete formwork installation",
@@ -42,7 +42,7 @@ const services = [
   },
   {
     icon: Wrench,
-    title: "Maintenance",
+    title: "Maintenance.",
     description: "Repair and maintenance of roofing structures and buildings to extend their lifespan.",
     features: [
       "Roof inspections",
