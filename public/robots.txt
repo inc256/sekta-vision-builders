@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sekta-real-constructors.com/sitemap.xml
+Sitemap: https://sektarealcontructors.com/sitemap.xml

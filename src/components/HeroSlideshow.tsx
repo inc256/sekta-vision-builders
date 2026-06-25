@@ -46,7 +46,7 @@ const HeroSlideshow = () => {
           <div className="max-w-2xl">
             <h1 className="text-4xl font-black leading-tight text-accent-foreground sm:text-5xl lg:text-6xl">
               Ssekta Real{" "}
-              <span className="text-accent">Constructors</span>
+              <span className="text-accent">Contructors</span>
             </h1>
             <p className="mt-3 text-lg font-medium italic text-accent-foreground/80 sm:text-xl">
               "Only the best is good enough."

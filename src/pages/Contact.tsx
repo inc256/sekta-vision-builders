@@ -9,11 +9,11 @@ import Seo from "@/components/Seo";
 const Contact = () => (
   <>
     <Seo
-      title="Contact Ssekta Real Contructors | Roofing & Construction Quotes"
-      description="Contact Ssekta Real Contructors in Seeta, Mukono for roofing structures, building construction, form works, and maintenance estimates."
-      url="https://sekta-real-contructors.com/contact"
-      canonical="https://sekta-real-contructors.com/contact"
-      image="https://sekta-real-contructors.com/contact-og.jpg"
+      title="Contact Sssekta Real Contructors | Roofing & Construction Quotes"
+      description="Contact Sssekta Real Contructors in Seeta, Mukono for roofing structures, building construction, form works, and maintenance estimates."
+      url="https://sektarealcontructors.com/contact"
+      canonical="https://sektarealcontructors.com/contact"
+      image="https://sektarealcontructors.com/contact-og.jpg"
       keywords="contact construction company, construction quote uganda, roofing quote mukono"
     />
     <Navbar />
@@ -92,7 +92,7 @@ const Contact = () => (
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Ssekta Real Constructors location"
+                title="Sssekta Real contructors location"
               />
             </motion.div>
           </div>

@@ -11,10 +11,10 @@ const About = () => (
     <Seo
       title="About Ssekta Real Contructors | Trusted Construction Company in Mukono"
       description="Learn about Ssekta Real Contructors' mission, top-quality service, and 10+ years of experience in roofing structures, form works, and building maintenance."
-      url="https://sekta-real-contructors.com/about"
-      canonical="https://sekta-real-contructors.com/about"
-      image="https://sekta-real-contructors.com/about-og.jpg"
-      keywords="about Ssekta Real contructors, construction company mukono, roofing experience uganda"
+      url="https://sekta-real-constructors.com/about"
+      canonical="https://sekta-real-constructors.com/about"
+      image="https://www.sektarealconstructors.com/assets/Sekta-Real-Constructors-Logo-Black-DjL8LATT.png"
+      keywords="about Sssekta Real contructors, construction company mukono, roofing experience uganda"
     />
     <Navbar />
     <main>
@@ -27,10 +27,10 @@ const About = () => (
               transition={{ duration: 0.4 }}
             >
               <h1 className="text-4xl font-black text-foreground sm:text-5xl">
-                About <span className="text-accent">Ssekta Real</span>
+                About <span className="text-accent">Ssekta Real Contructors</span>
               </h1>
               <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
-                Ssekta Real Constructors is a professional construction company based in Seeta, Mukono
+                Ssekta Real contructors is a professional construction company based in Seeta, Mukono
                 with over 10 years of experience delivering roofing structures, construction services,
                 form works, and maintenance.
               </p>
@@ -74,7 +74,7 @@ const About = () => (
             >
               <img
                 src={hero2}
-                alt="Ssekta Real construction project"
+                alt="Sssekta Real construction project"
                 className="w-full object-cover"
               />
             </motion.div>

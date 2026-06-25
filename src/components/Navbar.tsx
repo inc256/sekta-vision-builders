@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/Images/Logos/Sekta-Real-Constructors-Logo-Black.png";
+import logo from "@/assets/Images/Logos/sekta-Real-constructors-Logo-Black.png";
 
 const navItems = [
   { label: "Home", path: "/" },
@@ -35,7 +35,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-2">
             <img 
               src={logo} 
-              alt="Ssekta Real Constructors" 
+              alt="Sssekta Real contructors" 
               className="h-10 w-auto sm:h-12"
             />
           </Link>
