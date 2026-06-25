@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/Images/Logos/sekta-Real-constructors-Logo-Black.png";
+import logo from "@/assets/Images/Logos/Sekta-Real-Constructors-Logo-Black.png";
 
 const navItems = [
   { label: "Home", path: "/" },
