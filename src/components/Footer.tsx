@@ -9,7 +9,7 @@ const Footer = () => (
         <div>
           <h3 className="text-lg font-black">Ssekta Real Contructors</h3>
           <p className="mt-2 text-sm italic text-primary-foreground/70">
-            "Only the best is good enough."
+            "Only the best is good enough"
           </p>
         </div>
 
@@ -40,7 +40,7 @@ const Footer = () => (
               <Phone className="h-4 w-4" /> +256 776 529485
             </a>
             <span className="flex items-center gap-2">
-              <MapPin className="h-4 w-4" /> Seeta, Mukono, Uganda
+              <MapPin className="h-4 w-4" /> Seeta, Mukono, Uganda.
             </span>
           </div>
         </div>
